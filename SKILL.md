@@ -1,8 +1,8 @@
 ---
 name: stop-slop
-description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
+description: Remove AI writing patterns from English and Chinese prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
 metadata:
-  trigger: Writing prose, editing drafts, reviewing content for AI patterns
+  trigger: Writing prose, editing drafts, reviewing content for AI patterns in English or Chinese
   author: Hardik Pandya (https://hvpandya.com)
 ---
 
@@ -10,7 +10,9 @@ metadata:
 
 Eliminate predictable AI writing patterns from prose.
 
-## Core Rules
+## For English
+
+### Core Rules
 
 1. **Cut filler phrases.** Remove throat-clearing openers, emphasis crutches, and all adverbs. See [references/phrases.md](references/phrases.md).
 
@@ -28,7 +30,7 @@ Eliminate predictable AI writing patterns from prose.
 
 8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
 
-## Quick Checks
+### Quick Checks
 
 Before delivering prose:
 
@@ -45,7 +47,7 @@ Before delivering prose:
 - Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
 - Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
 
-## Scoring
+### Scoring
 
 Rate 1-10 on each dimension:
 
@@ -59,10 +61,24 @@ Rate 1-10 on each dimension:
 
 Below 35/50: revise.
 
-## Examples
+### Examples
 
 See [references/examples.md](references/examples.md) for before/after transformations.
 
-## License
+## Chinese Rules
 
-MIT
+Use these rules when the draft is in Chinese or contains substantial Chinese prose.
+
+1. **Cut overcooked emphasis.** Remove words that force intensity without adding information, especially absolute modifiers and slogan-like labels. See [references/chinese-phrases.md](references/chinese-phrases.md).
+
+2. **Reduce hard pivots.** Avoid sentence frames that rely on forced reversal, especially `不是...而是...` and `不是...更像是...`. State the point directly. See [references/chinese-structures.md](references/chinese-structures.md).
+
+3. **Delete empty scaffolding.** Remove summary labels and explanation crutches such as `一句话总结`, `也就是说`, and similar meta-intros unless they carry real structure.
+
+4. **Prefer concrete nouns over packaged labels.** Replace abstract content-platform words such as `爆点`, `最痛的点`, or `整合` with the actual issue, benefit, or action.
+
+5. **Keep the turn natural.** Chinese prose usually reads better when the sentence lands once. If the first half only exists to create contrast or suspense, cut it.
+
+6. **Default to restraint.** If a word feels pushy, exaggerated, or performative, delete it first and only add emphasis back when the sentence becomes too flat.
+
+7. **Keep this list expandable.** Treat the Chinese reference files as living lists. Add new patterns in the same format instead of burying them inside ad hoc notes.

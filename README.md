@@ -16,6 +16,8 @@ stop-slop/
 ├── references/
 │   ├── phrases.md        # Phrases to remove
 │   ├── structures.md     # Structural patterns to avoid
+│   ├── chinese-phrases.md    # Chinese words to trim or replace
+│   ├── chinese-structures.md # Chinese sentence patterns to avoid
 │   └── examples.md       # Before/after transformations
 ├── README.md
 └── LICENSE
@@ -38,6 +40,8 @@ stop-slop/
 **Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency, narrator-from-a-distance voice, passive voice. See `references/structures.md`.
 
 **Sentence-level rules** - No Wh- sentence starters, no em dashes, no staccato fragmentation, no lazy extremes, active voice required.
+
+**Chinese patterns** - Overstated modifiers, empty summary phrases, forced reversal structures, and content-platform wording. See `references/chinese-phrases.md` and `references/chinese-structures.md`.
 
 ## Scoring
 
